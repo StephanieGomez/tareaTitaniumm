@@ -1,10 +1,11 @@
 (function (e){
-	
+	/*Aquí vamos a declara la variabla win para crear la pantalla*/
 	win = Ti.UI.createWindow({
 		backgroundColor: '#00ff45'
 	}),
-	
+	/*En esta parte exportamos el archivo FileSystem al archivo app*/
 	fileSystem = require('FileSystem'),
+	//creamos los 4 botones y un input o textField
 	 buttonCreate = Ti.UI.createButton({
 	 	
 	 	title: 'crear',
